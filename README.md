@@ -29,3 +29,17 @@ Thats about it.
 * `PLIVO_AUTH_ID` - your plivo auth id
 * `PLIVO_AUTH_TOKEN` - your plivo auth token
 * `HEROKU_URL` - root url for heroku app to keep app running
+
+## numbers.json
+```
+[
+  {
+    "name": name used for phone. not currently used
+    "callerName": owner/user of this phone. used for Plivo caller ID
+    "number": plivo phone number including country code
+    "ext": extension used for internal use
+    "sip_uri": plivo sip address
+  },
+  ...
+]
+```
